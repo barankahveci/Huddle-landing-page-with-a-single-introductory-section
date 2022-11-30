@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(img/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+header{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+}
+.container{
+    display: flex;
+    padding: 0 70px 0 70px;
+}
+.container-text{
+    padding: 60px;
+}
+
+.container-text h1{
+    color: white;
+    font-size: 50px;
+    width: 500px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.container-text p{
+    color: white;
+    width: 400px;
+    line-height: 20px;
+    margin-bottom: 60px;
+}
+.container-text a{
+    padding: 20px 70px;
+    background: #fff;
+    border-radius: 30rem;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s ease-in-out;
+    
+}
+.container-text a:hover{
+    background-color: #E980E7;
+    color: white;
+    transition: 0.5s ease-in-out;
+    
+}
+.sosyal .sosyals{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 130px;
+    margin-right: 100px;
+    column-gap: 30px;
+}
+.sosyal .sosyals a{
+    text-decoration: none;
+
+}
+
+.sosyal .sosyals a i{
+    color: #fff;
+    font-size: 23px;
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 5rem;
+    width: 70px;
+    transition: 0.2s ease-in-out;
+}
+
+.sosyal .sosyals a i:hover{
+    color: #E980E7;
+    border: 1px solid #E980E7;
+
+}
+@media screen and (max-width:700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .container img{
+       width: 500px;
+       padding-right: 60px;
+    }
+    .container-text{
+        padding: 0px;
+        text-align: center;
+        margin-top: 100px;
+        
+    }
+    .container-text h1{
+        width: 500px;
+        padding-right: 60px;
+        
+    }
+    .container-text p{
+        width: 300px;
+        margin-left: 70px;
+        line-height: 25px;
+        font-size: 18px
+        
+    }
+    .container-text a{
+        padding: 20px 90px;
+        margin-left: 80px;
+        font-size: 18px;
+        
+    }
+    .sosyal{
+        margin-top: 100px;
+
+    }
+    .sosyal .sosyals{
+        margin-left: 370px;
+        margin-right: 370px;
+    }
+    .sosyal .sosyals a i{
+        color: #fff;
+        font-size: 15px;
+        padding: 15px;
+        border: 1px solid white;
+        border-radius: 5rem;
+        width: 45px;
+        transition: 0.2s ease-in-out;
+    }
+}    
